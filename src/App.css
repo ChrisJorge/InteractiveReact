@@ -47,3 +47,12 @@
   width: 50%;
   border: solid black
 }
+
+.card{
+  display: flex;
+  justify-content: center;
+}
+
+.name{
+  margin-right: 25px;
+}

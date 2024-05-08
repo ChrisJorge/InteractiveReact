@@ -1,8 +1,16 @@
 import React from 'react'
-
-function Menu() {
+import Section from './Section'
+function Menu({food, drinks, dessert}) {
   return (
-    <div className='Menu'>Menu</div>
+    <div className='Menu'>
+        <h1>Menu</h1>
+        <hr/>
+        <Section title={"Food"} items = {food}/>
+        <hr/>
+        <Section title={"Drinks"} items = {drinks}/>
+        <hr />
+        <Section title = {"Dessert"} items = {dessert} />
+    </div>
   )
 }
 

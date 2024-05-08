@@ -12,7 +12,7 @@ import Dessert from './data/Dessert';
 function App() {
   return (
     <div className="App">
-      <Menu Items = {[food,Drinks,Dessert]}/>
+      <Menu food = {food} drinks = {Drinks} dessert = {Dessert}/>
       <CurrentItem/>
     </div>
   );
