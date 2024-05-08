@@ -47,12 +47,23 @@
   width: 50%;
   border: solid black
 }
-
-.card{
+.item{
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
 }
 
 .name{
   margin-right: 25px;
+}
+
+.button{
+  width: 20%;
+  display: flex;
+  justify-content: left;
 }

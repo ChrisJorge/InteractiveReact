@@ -1,8 +1,12 @@
 import React from 'react'
 
-function CurrentItem() {
+function CurrentItem({name,price}) {
   return (
-    <div className='CurrentItem'>CurrentItem</div>
+    <div className='CurrentItem'>
+        <h1>CurrentItem</h1>
+    {name}
+    {price}
+    </div>
   )
 }
 
