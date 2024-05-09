@@ -11,11 +11,11 @@ import Dessert from './data/Dessert';
 
 
 function App() {
-  const [selected, setSelected] = useState({name: "", price: ""});
+  const [selected, setSelected] = useState(food[0]);
   return (
     <div className="App">
       <Menu food = {food} drinks = {Drinks} dessert = {Dessert} setSelected = {setSelected}/>
-      <CurrentItem name = {selected.name} price = {selected.price}/>
+      <CurrentItem item = {selected}/>
     </div>
   );
 }
